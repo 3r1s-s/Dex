@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta content="Dex" property="og:title">
+    <meta content="Frontend for https://pokeapi.co" property="og:description">
+    <meta content="https://gnaw.pages.dev" property="og:url">
+    <meta property="og:image" content="images/icon-safari.png">
+    <title>Dex</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="list.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <h1>Dex</h1>
+            <div class="search">
+                <form id="searchForm" onsubmit="return searchPokemon()">
+                    <label for="pokemonQuery"></label>
+                    <input type="text" id="pokemonQuery" name="q" required>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+
+            <div id="pokemonList"></div>
+
+            <button id="loadMoreBtn" class="hidden" onclick="loadMorePokemon()">Load More</button>
+        </div>
+    </div>
+
+</body>
+</html>

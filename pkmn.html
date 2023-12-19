@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dex</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="fetchPokemonInfo()">
+    <div class="main">
+        <div class="content">
+            <h1 id="pokemonName"></h1>
+            <p id="pokemonId"></p>
+            <div class="info">
+                <div class="basic">
+                    <img id="pokemonImage" alt="Pokemon Image" width="200px">
+                </div>
+                <div class="basic read">
+                    <p id="pokemonType"></p>
+                    <p id="flavorText"></p>
+                </div>
+                <div class="stats read"></div>
+                <div class="moves read"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
