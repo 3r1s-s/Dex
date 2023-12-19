@@ -1,0 +1,20 @@
+{
+    "name": "Dex",
+    "short_name": "Dex",
+    "description": "Frontend for Pokeapi",
+    "start_url": "index.html",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "images/icon-safari.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icon-safari.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
