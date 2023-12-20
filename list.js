@@ -44,14 +44,3 @@
             }
         }
 
-        // Fetch and display the initial set of Pokemon when the page loads
-        document.addEventListener('DOMContentLoaded', () => {
-            fetchPokemonList(nextUrl);
-
-            // Add scroll event listener for automatic loading on scroll
-            window.addEventListener('scroll', () => {
-                if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-                    loadMorePokemon();
-                }
-            });
-        });
