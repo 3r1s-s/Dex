@@ -1,5 +1,6 @@
 :root {
     --background-color: #000;
+    --accent-color: #e5f5ff1c;
     --color: #fff;
 }
 
@@ -23,6 +24,30 @@ h1 {
 p {
     margin-top: 2px;
     margin-bottom: 2px;
+}
+
+input {
+    background-color: var(--accent-color);
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    color: var(--color);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button {
+    background-color: var(--accent-color);
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    color: var(--color);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #pokemonImage {
@@ -51,7 +76,7 @@ p {
 }
 
 .read {
-    background-color: #e5f5ff1c;
+    background-color: var(--accent-color);
     border-radius: 15px;
     padding: 20px;
     margin-bottom: 10px;
@@ -101,8 +126,8 @@ p {
 }
 
 .search {
-padding-top: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

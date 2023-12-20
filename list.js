@@ -44,3 +44,7 @@
             }
         }
 
+        // Fetch and display the initial set of Pokemon when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchPokemonList(nextUrl);
+        });
