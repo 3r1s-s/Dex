@@ -50,6 +50,13 @@ button {
     padding-right: 10px;
 }
 
+.main {
+    max-width: 1000px;
+    margin: 1px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 #pokemonImage {
     image-rendering: pixelated;
 }
@@ -59,12 +66,6 @@ button {
     border-radius: 1rem;
     margin-bottom: 10px;
     padding: 2px;
-}
-
-.main {
-    max-width: 1000px;
-    margin: 1px auto;
-    padding-top: 50px;
 }
 
 .basic {
